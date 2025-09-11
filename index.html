@@ -9,7 +9,92 @@
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body class="font-sans text-gray-800">
-<p>asdasdsd</p>
+
+<!-- HERO -->
+<section class="relative bg-cover bg-center min-h-screen flex flex-col justify-center items-center text-center px-6" 
+         style="background-image: url('hero-nakliye.png');">
+  <div class="absolute inset-0 bg-blue-900 bg-opacity-50"></div> <!-- koyu overlay -->
+  
+  <div class="relative z-10 text-white">
+    <h1 class="text-4xl md:text-7xl font-bold mb-4">Nisan Nakliyat</h1>
+    <p class="text-lg md:text-3xl mb-8">Güvenli, Hızlı ve Ekonomik Taşımacılık Çözümleri</p>
+    <div class="md:flex-row gap-6" data-aos="zoom-in" data-aos-delay="300">
+      <a href="tel:+905454112220" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-xl shadow hover:bg-gray-100 transition">📞 Hemen Ara</a>
+      <a href="https://wa.me/905454112220" target="_blank" class="bg-green-500 text-white font-semibold px-6 py-3 rounded-xl shadow hover:bg-green-600 transition">💬 WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+  <!-- HİZMETLER -->
+  <section class="py-16 px-6 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-12" data-aos="fade-up">Hizmetlerimiz</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="100">
+        <div class="text-blue-600 text-4xl mb-4">🚚</div>
+        <h3 class="font-bold text-xl mb-2">Şehir İçi Nakliye</h3>
+        <p>Kısa mesafelerde hızlı ve güvenli taşımacılık.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="200">
+        <div class="text-blue-600 text-4xl mb-4">🏠</div>
+        <h3 class="font-bold text-xl mb-2">Ev & Ofis Taşımacılığı</h3>
+        <p>Profesyonel ekip ile eşyalarınızı güvenle taşıyoruz.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="300">
+        <div class="text-blue-600 text-4xl mb-4">📦</div>
+        <h3 class="font-bold text-xl mb-2">Şehirler Arası Nakliye</h3>
+        <p>Türkiye’nin her yerine ekonomik ve hızlı nakliye.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEDEN BİZ -->
+  <section class="py-16 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-12" data-aos="fade-up">Neden Bizi Tercih Etmelisiniz?</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div class="p-6" data-aos="flip-left" data-aos-delay="100">
+        <div class="text-4xl mb-4">✅</div>
+        <h3 class="font-bold text-xl mb-2">Güvenilirlik</h3>
+        <p>Tüm eşyalarınızı güvenle taşıyoruz.</p>
+      </div>
+      <div class="p-6" data-aos="flip-left" data-aos-delay="200">
+        <div class="text-4xl mb-4">⚡</div>
+        <h3 class="font-bold text-xl mb-2">Hız</h3>
+        <p>Planlı ve zamanında teslimat</p>
+      </div>
+      <div class="p-6" data-aos="flip-left" data-aos-delay="300">
+        <div class="text-4xl mb-4">💰</div>
+        <h3 class="font-bold text-xl mb-2">Uygun Fiyat</h3>
+        <p>Bütçenize uygun çözümler sunuyoruz.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- İLETİŞİM -->
+  <section class="py-16 px-6 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-8" data-aos="fade-up">İletişim</h2>
+    <p class="mb-4" data-aos="fade-up" data-aos-delay="100">Telefon: <a href="tel:+905454112220" class="text-blue-600 font-semibold hover:underline">+90 545 411 22 20</a></p>
+    <p class="mb-4" data-aos="fade-up" data-aos-delay="200">E-posta: <a href="mailto:info@guvennakliyat.com" class="text-blue-600 font-semibold hover:underline">info@guvennakliyat.com</a></p>
+    <p class="mb-8" data-aos="fade-up" data-aos-delay="300">Adres: Malatya, Türkiye</p>
+    <div class="flex flex-col md:flex-row gap-4 justify-center" data-aos="zoom-in" data-aos-delay="400">
+      <a href="tel:+905454112220" class="bg-blue-600 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-700 transition">📞 Ara</a>
+      <a href="https://wa.me/905454112220" target="_blank" class="bg-green-500 text-white px-6 py-3 rounded-xl shadow hover:bg-green-600 transition">💬 WhatsApp</a>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-600 text-white text-center py-6" data-aos="fade-up">
+    <p>Nisan Nakliyat. Tüm Hakları Saklıdır.</p>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
 </body>
 </html>
 
